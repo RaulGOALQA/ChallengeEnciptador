@@ -1,0 +1,102 @@
+body{
+    background-color: #F3F5FC;
+    height: 100vw;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    flex: content;
+    font-size:16px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.textoResultado{
+    resize: none;
+    font-size:18px;
+    width: 400px;
+    height: 600px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-seriff;
+    font-weight: 300;
+}
+.textoEntrada{
+    background-color: #F3F5FC;
+    gap: 50px;
+    font-size:24px;
+    width: 1200px;
+    height: 600px;
+    resize: none;
+    border: none;
+    font-family: "Montserrat", sans-seriff;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.textos{  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin:1% 5%;
+}
+.aviso{
+    font-family: "Montserrat", sans-seriff;
+    font-weight: 600;
+    margin: 1%;
+    opacity: .5;
+}
+
+.botones{  
+    display: flex;
+}
+
+
+.encriptar{
+
+    margin-left: 1%;
+    width: 20%;
+    padding: 1% 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #0A3871;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.desencriptar{
+    margin-left: 2%;
+    width: 20%;
+    padding: 1% 0;
+    font-size: 16px;
+    background-color: #D8DFE8;
+    border-width: thin;
+    border-color: #0A3871;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar{
+    margin-left: auto;
+    margin-right: 5%;
+    width: 20%;
+    padding: 1% 0;
+    font-size: 16px;
+    background-color: #D8DFE8;
+    border-width: thin;
+    border-color: #0A3871;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.datos{
+    font-family: "Montserrat", sans-seriff;
+    margin: 1%;
+}

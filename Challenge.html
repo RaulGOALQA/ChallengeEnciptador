@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Alura</title>
+		<link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./Assets/Logo.png" type="image/icon type">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+	
+
+	<header>
+		<img class="logo" src="Assets/Logo.png" alt="Logo de Alura">
+	</header>
+	<main class="container">
+		<div class="textos">
+			<textarea class="textoEntrada" cols="35" rows="10" placeholder="  Ingrese el texto aquí"></textarea><!--Una clase a cada texto para que el querySelector los encuentre-->
+			<textarea class="textoResultado" id="copy" cols="50" rows="12" placeholder="  Ningun mensaje fue encontrado"></textarea><!--Este texto tiene id para copiar su contenido en la función copiarAlPortapapeles-->
+			
+		</div>
+		<p class="aviso">*Solo letras minúsculas y sin acentos</p>
+		<div class="botones">
+			<input type="submit" value="Encriptar" class="encriptar"><!--Una clase a cada botón para que el querySelector los encuentre-->
+			<input type="submit" value="Desencriptar" class="desencriptar">
+			<input type="submit" value="Copiar" class="copiar">
+		</div>
+		
+	</main>
+
+	<footer>
+		<p class="datos">Realizado por <a href="https://mx.linkedin.com/in/raul-vicente-gomez-almazan-a86151a3">Raul Vicente Gomez Almazan</a>-Challenge:Encriptador</p>
+		
+	</footer>
+</body>
+<script src="funcionalidad.js"></script>
+
